@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+.container {
+    margin: auto;
+    width: 1040px;
+    background-color: #AAA;
+}
+
+.slideshow{
+    height: 335px;
+    width: 570px;
+    overflow: hidden;
+}
+
+.slideshowarea {
+    height: 335px;
+    width: 100000px;
+    transition: all 2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+.slide {
+    width: 570px;
+    height: 335px;
+    float: left;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
