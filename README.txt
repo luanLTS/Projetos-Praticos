@@ -1,1 +1,1 @@
-Criando o repositorio para fins de pratica com alguns projetos, com linguagens novas e frameworks
+# Criando o repositorio para fins de pratica com alguns projetos, com novas linguagens, frameworks, libs e exercícios.
