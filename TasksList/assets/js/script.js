@@ -41,5 +41,5 @@ const addTask = () => {
 
 const removeTask = (element) => {
     ulToDo.removeChild(element)
-    ulDone.innerHTML += `<li>${element.textContent}</li>`
+    ulDone.innerHTML += `<li><strike>${element.textContent}</strike></li>`
 }
