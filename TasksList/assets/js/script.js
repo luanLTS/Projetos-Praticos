@@ -1,14 +1,3 @@
-/*
-    localStorage
-    localStorage.setItem('key', 'value')
-    localStorage.getItem('key')
-*/
-
-// console.log( numbers.map( (number, index) => {
-//     return `O numero esta na posição ${ index } e seu valor é igual a ${ number }`
-// } ) )
-
-
 let ulToDo = document.querySelector('.to_do')
 let ulDone = document.querySelector('.done')
 let inputTask = document.querySelector('#newTask')
