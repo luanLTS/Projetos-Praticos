@@ -6,11 +6,6 @@ const validarUltimoCaractere = (event) => {
     }
 };
 
-const validarCaracteresColado = (event) => {
-    let pattern = /[0-9]/;
-    console.log(event.value.match(pattern));
-};
-
 // fontes:
 // https://www.w3bai.com/pt/jsref/event_onpaste.html
 // https://devdocs.io/javascript/global_objects/string/match
