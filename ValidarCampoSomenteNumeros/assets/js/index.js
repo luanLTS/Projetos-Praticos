@@ -12,7 +12,7 @@
 // https://www.devmedia.com.br/javascript-substring-selecionando-parte-de-uma-string/39232
 
 function validarApenasNumeros(event) {
-    let regex = /[^0-9]/;
-    event.value = event.value.replace(regex, "");
+    let regex = /[^0-9]/g;
+    event.value = event.value.replaceAll(regex, "");
     console.log(event.value);
 }

@@ -11,7 +11,8 @@
 <body>
     <label>
         CPF: <br />
-        <input type="text" name="cpf" id="cpf" onkeyup="validarApenasNumeros(this)" />
+        <input type="text" name="cpf" id="cpf" onkeyup="validarApenasNumeros(this)" pattern="[0-9]"
+            title="Apenas números" onchange="validarApenasNumeros(this)" />
     </label>
 
     <script src="assets/js/index.js"></script>
